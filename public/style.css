@@ -1,0 +1,66 @@
+nav a{
+    padding: .5rem;
+}
+/* php artisan serve */
+
+li{
+    list-style-type: none;
+    border: 1px solid;
+    border-radius: 5px;
+    background: antiquewhite;
+    padding: 10px;
+    margin: 5px;
+}
+li:hover{
+    background-color: #f7474f;
+}h1{
+    font-size: 20px;
+}
+form{
+    background: rgb(236, 15, 15);
+    border: 1px solid #2e2525;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000000;
+}
+form div{
+    margin: 13px;
+}
+form input{
+    border: 1px solid rgb(223, 102, 102);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+form label{
+    display: inherit;
+    font-size: -9rem;
+    padding-bottom: 3px;
+    color: rgb(13, 15, 15);
+}
+from button{
+    border: 1px solid #e65757;
+    background: #634646;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.form-error{
+    margin: 0;
+    font-size: .8rem;
+    color: red;
+}
+.edit-btn{
+    color: rgb(86, 13, 155);
+    text-decoration: underline;
+    font-size: .8rem;
+}
+ .delete-btn {
+    color: #d3e012;
+    text-decoration: underline;
+    font-size: .8rem;
+    padding: 0;
+    
+}
